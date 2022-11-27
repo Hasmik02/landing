@@ -1,0 +1,1360 @@
+html,
+body * {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.head {
+  display: flex;
+  padding: 14px 11.5%;
+  justify-content: space-between;
+  height: 30px;
+  padding-bottom: 30px;
+}
+.head-icons {
+  display: none;
+}
+
+.background-sign {
+  display: none;
+}
+.requests {
+  position: absolute;
+  width: 250px;
+  height: 52px;
+  left: 1291px;
+  background: #439aca;
+  border-radius: 10px;
+  border: 1px #439aca;
+}
+
+.little-box {
+  margin-left: 20px;
+}
+.button-leave {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 11px 15px;
+}
+.Map {
+  background-color: #3b9dd3ed;
+  width: 1677px;
+  height: 750px;
+  display: flex;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  flex: 11;
+  padding-top: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.navbar ul li a {
+  font-size: 16px;
+  line-height: 16px;
+  color: #505457;
+  text-decoration: none;
+}
+.left-side {
+  padding: 10px 7.5%;
+}
+.Express {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 104%;
+  letter-spacing: -1.5px;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 104%;
+  color: #ffffff;
+  position: relative;
+  padding-top: 150px;
+}
+
+.icon {
+  position: absolute;
+  width: 514px;
+  height: 26.45px;
+}
+
+.Day {
+  position: absolute;
+  width: 441px;
+  height: 53px;
+  left: 140px;
+  top: 431px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 114.5%;
+
+  color: #ffffff;
+}
+.button-zayavku {
+  display: flex;
+  justify-content: space-between;
+}
+
+.request-zayavku {
+  position: absolute;
+  width: 248px;
+  height: 52px;
+  left: 140px;
+  top: 509px;
+  background: #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  width: 250px;
+  height: 52px;
+}
+.zayavku {
+  font-weight: 600;
+  font-size: 19px;
+  color: #439aca;
+
+  padding: 11px 15px;
+}
+
+.little-zayavku {
+  margin-left: 20px;
+}
+
+.man-truck {
+  display: none;
+}
+
+.right-side {
+  padding-top: 65px;
+  position: relative;
+}
+
+.man {
+  padding-right: 80px;
+}
+
+.novartis {
+  position: absolute;
+  width: 207px;
+  height: 39px;
+  top: 108px;
+  background: #58bff8;
+  border-radius: 75px;
+}
+.express-dostavka {
+  position: absolute;
+  width: 217.22px;
+  height: 55.34px;
+  top: 111px;
+  left: 12px;
+}
+.star {
+  position: absolute;
+  left: -90.6px;
+  width: 100px;
+}
+
+.about {
+  padding-top: 151px;
+  padding: 131px 120px;
+}
+.offer {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 104%;
+  letter-spacing: -1.5px;
+  color: #505457;
+  margin-left: 13px;
+}
+
+.images {
+  padding-top: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.goods {
+  border-radius: 120px;
+  background: #ffffff;
+  box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.05);
+  border-radius: 17px;
+}
+
+.goody-gruzov {
+  display: none;
+}
+.goody-fire {
+  display: flex;
+  justify-content: space-around;
+}
+.goody {
+  display: none;
+}
+.good-pic {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+.little-fire {
+  position: absolute;
+  width: 19px;
+  height: 58px;
+  left: 158px;
+  top: 109.41px;
+}
+.shipping {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 114.5%;
+  letter-spacing: -1px;
+  color: #505457;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 114.5%;
+  padding-left: 19px;
+  margin-top: 14.48px;
+}
+.doctor {
+  border-radius: 120px;
+  background: #ffffff;
+  box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.05);
+  border-radius: 17px;
+}
+.doctor {
+  width: 350px;
+}
+.doctor-half {
+  display: none;
+}
+
+.doc-class {
+  display: none;
+}
+.doc-image {
+  margin-right: 20px;
+}
+
+.transportation {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 114.5%;
+  letter-spacing: -1px;
+  color: #505457;
+  padding-left: 19px;
+  padding-top: 4px;
+}
+.drugs {
+  border-radius: 120px;
+  background: #ffffff;
+  box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.05);
+  border-radius: 17px;
+}
+.drugs-Cd {
+  display: none;
+}
+.drug-covid {
+  display: none;
+}
+.drug-image {
+  border-radius: 12px;
+}
+
+.time {
+  font-weight: 500;
+  font-size: 21px;
+
+  line-height: 114.5%;
+  letter-spacing: -1px;
+  color: #505457;
+  padding-left: 19px;
+  padding-top: 8.18px;
+}
+
+.med-time {
+  display: none;
+}
+
+.drug-image {
+  margin-right: 20px;
+}
+
+.Cryology-pot {
+  background: #ffffff;
+  box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.05);
+  border-radius: 17px;
+  width: 324px;
+  height: 240px;
+}
+.cryologistic {
+  display: none;
+}
+.cryology {
+  font-size: 21px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  color: #505457;
+  line-height: 114.5%;
+  padding-left: 19px;
+  padding-top: 13.35px;
+}
+
+.bio-materials {
+  display: none;
+}
+.Transportation-biomaterials {
+  font-size: 21px;
+  color: #505457;
+  letter-spacing: -1px;
+  line-height: 114.5%;
+  padding-top: 1.99px;
+  padding-left: 19px;
+}
+
+.important-things {
+  display: flex;
+  flex-direction: column;
+}
+
+.Why {
+  margin-bottom: 120px;
+}
+.we {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 104%;
+  letter-spacing: -1.5px;
+  padding-top: 93px;
+  color: #505457;
+  left: 140px;
+  top: 1580px;
+}
+
+.containers {
+  display: flex;
+  padding-top: 16px;
+}
+.advices {
+  width: 702.51px;
+  height: 400px;
+  left: 140px;
+  top: 1660px;
+  padding-top: 50px;
+  background: #fbfbfb;
+  border-radius: 17px;
+}
+
+.c-2013 {
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 104%;
+  letter-spacing: -1.5px;
+  color: #439aca;
+  padding-left: 122.88px;
+  padding-top: 10px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #c4eaff 0%,
+    rgba(185, 230, 255, 0) 100%
+  );
+  font-style: italic;
+}
+
+.delivery {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 19px;
+  padding-top: 70px;
+  line-height: 114.5%;
+  letter-spacing: -1px;
+  color: #728d9b;
+  top: 1898px;
+
+  left: 168.98px;
+}
+
+.radioactive-drugs {
+  padding: 10px;
+  padding-top: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 114.5%;
+  letter-spacing: -1px;
+  color: #b8bbbe;
+}
+
+.container {
+  margin-top: 50px;
+  width: 324px;
+  height: 402px;
+  left: 190px;
+  margin-left: 120px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 14px;
+}
+
+.Equipment {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 144%;
+  letter-spacing: -1px;
+  padding: 10px;
+  color: #439aca;
+}
+
+.Compliant {
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 111.5%;
+  letter-spacing: -1px;
+  color: #728d9b;
+}
+.Compliant2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 124%;
+  letter-spacing: -1px;
+  padding-top: 70px;
+  color: #439aca;
+}
+
+.Equipment2 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 134.5%;
+  letter-spacing: -1px;
+  color: #728d9b;
+}
+
+.orders {
+  display: flex;
+  margin-bottom: 150px;
+  justify-content: space-around;
+}
+
+.two-images {
+  display: flex;
+  flex-direction: column;
+  border-radius: 17px 17px 0px 0px;
+  padding-left: 14px;
+  padding-top: 46px;
+  padding-right: 120px;
+}
+
+.work {
+  padding-top: 70px;
+  margin-left: 34px;
+  border-radius: 17px;
+  padding-right: 120px;
+}
+.right-side2 {
+  display: flex;
+  justify-content: space-between;
+  left: 1194px;
+}
+.important {
+  margin-left: 120px;
+}
+.dangerous-goods {
+  width: 323.77px;
+  height: 194px;
+  left: 857.49px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 17px;
+}
+
+.vectors2 {
+  width: 98.99px;
+  height: 30px;
+  padding: 12px;
+  padding-top: 28px;
+}
+
+.have-everything {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 114.5%;
+  letter-spacing: -1px;
+  color: #728d9b;
+  margin-top: 20px;
+  padding: 12px;
+}
+
+.thermometer {
+  width: 323.77px;
+  height: 190px;
+  left: 857.49px;
+  top: 1871px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 17px;
+}
+
+.important-images {
+  width: 98.99px;
+  height: 40px;
+  left: 911.98px;
+  top: 1899px;
+  display: flex;
+  padding-top: 44px;
+  padding-left: 17px;
+}
+
+.snow {
+  width: 18.99px;
+  height: 20px;
+  left: 911.98px;
+  top: 1899px;
+}
+.temperature {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 114.5%;
+  padding-top: 0px;
+  letter-spacing: -1px;
+  color: #728d9b;
+  padding-top: 19px;
+  padding: 12px;
+}
+.facilities {
+  display: none;
+}
+.parks {
+  display: none;
+}
+.thermal-containers {
+  height: 45px;
+  background: #f9f9f9;
+  margin-left: 90px;
+  padding: 30px;
+  border-radius: 17px;
+}
+
+.shipments {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 114.5%;
+  letter-spacing: -1px;
+  color: #728d9b;
+}
+.cubes {
+  display: none;
+}
+
+.who-work {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 104%;
+  padding-top: 150px;
+  letter-spacing: -1.5px;
+  color: #505457;
+  margin-left: 139px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 65px;
+  margin-left: 144px;
+}
+
+.calculation {
+  padding: 140px 135px;
+  position: absolute;
+  width: 1410px;
+  height: 402px;
+  background: #f3f3f3;
+}
+
+.marks {
+  position: absolute;
+  left: -0.89%;
+}
+
+.costs {
+  display: flex;
+  position: absolute;
+}
+
+.calculate-cost {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 114%;
+  letter-spacing: -1.5px;
+  color: #505457;
+}
+
+.fill-out {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 114.5%;
+  letter-spacing: -1px;
+  color: #505457;
+  margin-left: 18px;
+  margin-top: 8px;
+}
+.registration {
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.input-group {
+  color: rebeccapurple;
+  margin-top: 120px;
+  display: flex;
+}
+.input-field {
+  display: block;
+  padding-left: 20px;
+  align-items: center;
+  color: rebeccapurple;
+}
+.name {
+  width: 410px;
+  height: 54px;
+  background: #ffffff;
+  border-radius: 8px;
+  text-align: start;
+  border-radius: 8px;
+  border: 1px #ffffff;
+  color: #728d9b;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.number {
+  width: 410px;
+  height: 54px;
+  margin-left: 50px;
+  text-align: start;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px #ffffff;
+  color: #728d9b;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.send {
+  position: absolute;
+  width: 300px;
+  height: 44px;
+  text-align: start;
+  margin-left: 920px;
+  background: #439aca;
+  border-radius: 10px;
+  border: 1px #439aca;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 600;
+}
+.send-button {
+  display: flex;
+}
+
+.list-check {
+  padding-left: 62px;
+}
+.data {
+  position: absolute;
+  display: flex;
+  padding-top: 109px;
+}
+.novelty {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #728d9b;
+}
+
+.personal-data {
+  padding-left: 320px;
+  display: flex;
+}
+
+.place {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #728d9b;
+}
+
+.e-mail {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.01em;
+  color: #728d9b;
+  padding-left: 75px;
+}
+
+.messenger {
+  margin-left: 120px;
+  padding-bottom: 320px;
+  top: 12%;
+}
+.messenger {
+  margin-right: 320px;
+}
+
+.conclusion {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  padding-top: 120px;
+  padding-left: 176px;
+  margin-top: 109px;
+  background: #f3f3f3;
+  border: 1px solid #e6e6e6;
+}
+
+.info {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #728d9b;
+  padding-right: 120px;
+}
+
+@media (max-width: 700px) {
+  .head {
+    display: flex;
+    padding: 14px 11.5%;
+    justify-content: space-between;
+    height: 30px;
+    padding-bottom: 0;
+  }
+  .head-icons {
+    display: flex;
+  }
+  .background-sign {
+    display: block;
+    position: absolute;
+    width: 492.31px;
+    height: 537.68px;
+    left: -147.07px;
+    top: 30px;
+  }
+  .icon {
+    display: none;
+  }
+  .vec {
+    display: none;
+  }
+  .Map {
+    background-color: #3b9dd3ed;
+    width: 660px;
+    height: 750px;
+    display: flex;
+  }
+  .button-leave {
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    background: #3b9dd3;
+    border-radius: 5px;
+    border-color: #3b9dd3ed;
+    cursor: pointer;
+    text-align: center;
+    padding: 3px;
+    display: none;
+    font-weight: 500;
+  }
+  .navbar {
+    display: none;
+    background-color: #3b9dd3;
+  }
+  .navbar ul li {
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    padding: 0;
+  }
+
+  .navbar ul li a {
+    font-size: 10px;
+    line-height: 10px;
+    color: red;
+    text-decoration: none;
+  }
+  .left-side {
+    padding: 0;
+    margin-bottom: 120px;
+  }
+
+  .images {
+    display: block;
+    flex-direction: row;
+  }
+  .goods {
+    padding-right: 45px;
+    width: 327px;
+  }
+  .good-pic {
+    display: none;
+  }
+  .goody-gruzov {
+    display: block;
+  }
+
+  .goody {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    color: #505457;
+    padding: 24px 19px;
+  }
+  .fire {
+    margin-top: 30px;
+  }
+  .shipping {
+    display: none;
+  }
+  .doc-class {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    color: #505457;
+    padding: 24px 19px;
+  }
+  .doc-image {
+    display: none;
+  }
+
+  .doctor-half {
+    display: block;
+  }
+  .doctor {
+    width: 370px;
+  }
+  .radio-class {
+    display: flex;
+  }
+  .radio {
+    margin-top: 30px;
+  }
+  .transportation {
+    display: none;
+  }
+  .time {
+    display: none;
+  }
+  .cryology {
+    display: none;
+  }
+  .Cryology-pot {
+    width: 370px;
+  }
+  .cryologistic {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    padding-left: 24px;
+    padding-bottom: 19px;
+    padding-top: 29px;
+    color: #505457;
+  }
+  .Transportation-biomaterials {
+    display: none;
+  }
+  .bio-materials {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    padding-left: 24px;
+    padding-bottom: 19px;
+    padding-top: 29px;
+    color: #505457;
+  }
+  .biomaterials {
+    width: 350px;
+    background: #f9f9f9;
+    box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.05);
+    border-radius: 17px;
+  }
+  bio-image {
+    border-radius: 14px 14px 0px 0px;
+  }
+  .star {
+    position: absolute;
+    left: -90.6px;
+    width: 100px;
+  }
+  .right-side {
+    padding-top: 65px;
+    position: absolute;
+  }
+
+  .man {
+    padding-top: 350px;
+    display: none;
+  }
+
+  .Express {
+    left: 150px;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 104%;
+    letter-spacing: -1.5px;
+    color: #ffffff;
+  }
+
+  .Day {
+    position: relative;
+    font-weight: 400;
+    padding-left: 120px;
+    font-size: 20px;
+    line-height: 114.5%;
+    letter-spacing: -1.1px;
+    color: #ffffff;
+    display: none;
+  }
+  .zayavku {
+    color: #3b9dd3;
+    width: 250px;
+    height: 35px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px white;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 0;
+    left: 0;
+    cursor: pointer;
+  }
+
+  .request-zayavku {
+    width: 148px;
+    height: 52px;
+    top: 370px;
+    left: 160px;
+
+    border-radius: 10px;
+    position: absolute;
+    width: 250px;
+    height: 52px;
+  }
+
+  .button-zayavku {
+    display: flex;
+  }
+  .zayavku-vector {
+    margin-left: 190px;
+  }
+
+  .man-truck {
+    display: block;
+    margin-left: 120px;
+    margin-top: 150px;
+    position: relative;
+  }
+  .express-dostavka {
+    display: none;
+  }
+  .star {
+    display: block;
+  }
+
+  .offer {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 104%;
+    letter-spacing: -1.5px;
+    color: #505457;
+  }
+  .containers {
+    display: block;
+    padding-top: 16px;
+  }
+  .advices {
+    height: 400px;
+    width: 452.51px;
+    left: 140px;
+    top: 1660px;
+    padding-top: 50px;
+    background: #fbfbfb;
+    border-radius: 17px;
+  }
+  .right-side2 {
+    display: block;
+    margin-top: 0;
+    right: 120px;
+  }
+
+  .important {
+    margin-left: 0;
+  }
+  .thermal-containers {
+    display: none;
+  }
+  .gorsrester {
+    width: 350px;
+    background: #f9f9f9;
+    box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.05);
+    border-radius: 17px;
+  }
+  .facilities {
+    display: block;
+    margin-left: 12px;
+  }
+  .volumes {
+    display: flex;
+  }
+  .body-valume {
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    color: #728d9b;
+  }
+  .meter {
+    padding-left: 130px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 114.5%;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #439aca;
+  }
+  .transportation {
+    display: none;
+    padding: 0;
+  }
+
+  .mode-transportation {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    color: #728d9b;
+    padding-top: 9px;
+    text-align: start;
+  }
+  .celsius {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 114.5%;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #439aca;
+    padding-left: 130px;
+    padding-top: 24px;
+  }
+
+  .carrying-capasity {
+    display: flex;
+    padding: 0;
+  }
+
+  .capasity {
+    font-weight: 400;
+    padding-top: 9px;
+    font-size: 18px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    color: #728d9b;
+  }
+  .kg {
+    padding-left: 110px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 114.5%;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #439aca;
+    padding-top: 9px;
+  }
+
+  .parks {
+    display: block;
+    margin-left: 12px;
+  }
+
+  .car-park {
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 104%;
+    letter-spacing: -1px;
+    color: #439aca;
+  }
+  .plant {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 104%;
+    letter-spacing: -1px;
+    margin-top: 80px;
+    color: #439aca;
+  }
+  .compliants {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    padding-top: 12px;
+    color: #728d9b;
+  }
+
+  .dangerous-goods {
+    width: 310.77px;
+    left: 857.49px;
+    top: 1660px;
+    padding: 22px;
+    background: #f9f9f9;
+    border-radius: 17px;
+  }
+  .vectors2 {
+    width: 98.99px;
+    height: 20px;
+    padding: 12px;
+  }
+  .thermometer {
+    width: 323.77px;
+    background: #f9f9f9;
+    border-radius: 17px;
+  }
+  .cubes {
+    display: flex;
+    margin-top: 60px;
+  }
+  .ship {
+    margin-top: 90px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    color: #728d9b;
+    background: #f9f9f9;
+    padding: 12px;
+    width: 210.77px;
+  }
+  .orders {
+    display: none;
+  }
+  .prices {
+    display: block;
+    margin-left: 24px;
+  }
+
+  .conclusion {
+    display: block;
+  }
+  .messenger {
+    padding-left: 0;
+    margin-top: 450px;
+    margin-right: 0;
+  }
+  .date {
+    display: none;
+  }
+  .place {
+    padding-left: 0;
+    margin-top: 0;
+  }
+  .info {
+    padding-left: 0;
+  }
+  .therapy {
+    display: flex;
+    position: absolute;
+    width: 340px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin-top: 52px;
+    color: #728d9b;
+  }
+  .wholeress-dostavka {
+    display: none;
+  }
+
+  .c-2013 {
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 104%;
+    letter-spacing: -1.5px;
+    color: #439aca;
+    padding-left: 0;
+    padding-top: 10px;
+
+    width: 422.56px;
+    height: 109px;
+  }
+
+  .delivery {
+    padding-left: 0;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    color: #728d9b;
+  }
+
+  .radioactive-drugs {
+    padding-left: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 114.5%;
+  }
+  .drug-covid {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    padding-left: 24px;
+    padding-bottom: 19px;
+    padding-top: 29px;
+    color: #505457;
+  }
+  .drug-image {
+    display: none;
+  }
+  .bayyer {
+    display: none;
+  }
+  .novaris {
+    padding-left: 100px;
+  }
+  .rjd {
+    display: none;
+  }
+  .emc {
+    display: none;
+  }
+  .red {
+    display: none;
+  }
+  .respublic {
+    display: none;
+  }
+
+  .urbon {
+    display: none;
+  }
+
+  .who-work {
+    display: block;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 104%;
+    padding-top: 150px;
+    letter-spacing: -1.5px;
+    color: #505457;
+    margin-left: 99px;
+  }
+  .logos {
+    margin-left: 0;
+  }
+  .work-with {
+    padding-right: 120px;
+  }
+
+  .who-work {
+    color: #505457;
+    width: 237px;
+    left: 94px;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .calculation {
+    padding: 10px;
+    position: absolute;
+    width: 627px;
+    height: 702px;
+    background: #f3f3f3;
+  }
+  .about {
+    padding-top: 151px;
+  }
+  .novartis {
+    display: none;
+  }
+
+  .costs {
+    display: block;
+    padding-left: 40px;
+  }
+
+  .marks {
+    display: none;
+  }
+  .calculate-cost {
+    padding-left: 20px;
+    padding-top: 12px;
+  }
+
+  .input-group {
+    display: block;
+    padding-top: 30px;
+  }
+
+  .name {
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .novelty {
+    display: none;
+  }
+
+  .novelty2 {
+    display: block;
+    left: 520%px;
+  }
+  .number {
+    display: block;
+    margin-top: 30px;
+    padding-right: 200px;
+  }
+
+  .send {
+    display: none;
+  }
+
+  .personal-data {
+    display: block;
+    margin-left: 0;
+    padding-left: 60px;
+    padding-top: 420px;
+  }
+  .e-mail {
+    padding-left: 0;
+  }
+  .data {
+    padding-top: 0;
+    top: 20px;
+  }
+}
