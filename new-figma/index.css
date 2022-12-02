@@ -6,7 +6,8 @@ body * {
 }
 .head {
   display: flex;
-  padding: 14px 11.5%;
+  padding: 14px 8.5%;
+  padding-top: 45px;
   justify-content: space-between;
   height: 30px;
   padding-bottom: 30px;
@@ -38,21 +39,22 @@ body * {
   color: #ffffff;
   padding: 11px 15px;
 }
+
 .Map {
   background-color: #3b9dd3ed;
-  width: 1677px;
   height: 750px;
   display: flex;
 }
 nav {
   display: flex;
-  padding: 2% 6%;
+  padding: 1% 6%;
   justify-content: space-between;
   align-items: center;
 }
 .navbar {
   flex: 11;
   padding-top: 20px;
+  padding-left: 40px;
 }
 .navbar ul li {
   list-style: none;
@@ -68,6 +70,43 @@ nav {
   color: #505457;
   text-decoration: none;
 }
+
+.button1 {
+  width: 254px;
+  height: 52px;
+  background: #3b9dd3;
+  border-radius: 10px;
+  border: 1px #3b9dd3;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 19px;
+  color: #ffffff;
+
+  line-height: 19px;
+  display: flex;
+}
+.app {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding-left: 16px;
+}
+.app-button {
+  display: flex;
+  padding-top: 16.17px;
+}
+
+.button1-img {
+  margin-left: 28.61px;
+}
+.vector-magnifier {
+  padding-top: 30px;
+  background-color: #3b9dd3;
+}
+
 .left-side {
   padding: 10px 7.5%;
 }
@@ -95,11 +134,10 @@ nav {
   width: 441px;
   height: 53px;
   left: 140px;
-  top: 431px;
+  top: 440px;
   font-weight: 400;
   font-size: 22px;
   line-height: 114.5%;
-
   color: #ffffff;
 }
 .button-zayavku {
@@ -112,14 +150,18 @@ nav {
   width: 248px;
   height: 52px;
   left: 140px;
-  top: 509px;
+  top: 515px;
   background: #ffffff;
   border-radius: 10px;
   position: absolute;
   width: 250px;
   height: 52px;
+  cursor: pointer;
+  border: 1px #ffffff;
 }
+
 .zayavku {
+  display: flex;
   font-weight: 600;
   font-size: 19px;
   color: #439aca;
@@ -128,7 +170,7 @@ nav {
 }
 
 .little-zayavku {
-  margin-left: 20px;
+  margin-left: 28.61px;
 }
 
 .man-truck {
@@ -149,6 +191,7 @@ nav {
   width: 207px;
   height: 39px;
   top: 108px;
+  left: 28px;
   background: #58bff8;
   border-radius: 75px;
 }
@@ -166,8 +209,8 @@ nav {
 }
 
 .about {
-  padding-top: 151px;
-  padding: 131px 120px;
+  padding-left: 120px;
+  padding-top: 93px;
 }
 .offer {
   font-weight: 700;
@@ -440,7 +483,7 @@ nav {
 
 .orders {
   display: flex;
-  margin-bottom: 150px;
+  padding-top: 36px;
   justify-content: space-around;
 }
 
@@ -454,7 +497,7 @@ nav {
 }
 
 .work {
-  padding-top: 70px;
+  padding-top: 50px;
   margin-left: 34px;
   border-radius: 17px;
   padding-right: 120px;
@@ -539,7 +582,6 @@ nav {
   height: 45px;
   background: #f9f9f9;
   margin-left: 90px;
-  padding: 30px;
   border-radius: 17px;
 }
 
@@ -575,7 +617,7 @@ nav {
   padding: 140px 135px;
   position: absolute;
   width: 1410px;
-  height: 402px;
+  height: 582px;
   background: #f3f3f3;
 }
 
@@ -673,7 +715,6 @@ nav {
 .data {
   position: absolute;
   display: flex;
-  padding-top: 109px;
 }
 .novelty {
   font-weight: 500;
@@ -681,11 +722,13 @@ nav {
   line-height: 24px;
   letter-spacing: -0.01em;
   color: #728d9b;
+  padding-top: 151px;
 }
 
 .personal-data {
   padding-left: 320px;
   display: flex;
+  margin-top: 151px;
 }
 
 .place {
@@ -708,7 +751,7 @@ nav {
 .messenger {
   margin-left: 120px;
   padding-bottom: 320px;
-  top: 12%;
+  margin-top: 151px;
 }
 .messenger {
   margin-right: 320px;
@@ -955,7 +998,6 @@ nav {
     width: 148px;
     height: 52px;
     top: 370px;
-    left: 160px;
 
     border-radius: 10px;
     position: absolute;
